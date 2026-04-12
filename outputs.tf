@@ -1,3 +1,3 @@
 output "alb_dns" {
-  value = module.alb.alb_dns_name
+  value = module.Load_balancer.alb_dns_name
 }

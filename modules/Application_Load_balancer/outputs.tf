@@ -1,5 +1,5 @@
 output "target_id" {
-  value = aws_alb_target_group.target_group.id
+  value = aws_lb_target_group.target_group.id
 }
 
 output "alb_id" {
@@ -7,5 +7,5 @@ output "alb_id" {
 }
 
 output "target_group_arn" {
-  value = aws_alb_target_group.target_group.arn 
+  value = aws_lb_target_group.target_group.arn 
 }
