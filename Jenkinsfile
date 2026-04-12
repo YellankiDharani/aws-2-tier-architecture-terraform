@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/YellankiDharani/aws-2-tier-architecture-terraform.git'
+                git branch: 'main', url: 'https://github.com/YellankiDharani/aws-2-tier-architecture-terraform.git'
             }
         }
 
