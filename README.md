@@ -105,13 +105,17 @@ terraform apply
 
 ## Output
 
-After deployment, Terraform will output the ALB DNS URL.
+When accessing the ALB DNS, the application dynamically displays:
 
-Open it in a browser to see:
+Instance ID
+Private IP Address
+Client IP Address
+Sample Output:
 
-```
-Hello from ASG Instance
-```
+🚀 2-Tier Project Working
+Instance ID: i-xxxxxxxxxxxx
+Private IP: 10.x.x.x
+Client IP: xxx.xxx.xxx.xxx
 
 ---
 
