@@ -108,14 +108,24 @@ terraform apply
 When accessing the ALB DNS, the application dynamically displays:
 
 Instance ID
+
 Private IP Address
+
 Client IP Address
+
 Sample Output:
 
+```
+
 🚀 2-Tier Project Working
+
 Instance ID: i-xxxxxxxxxxxx
+
 Private IP: 10.x.x.x
+
 Client IP: xxx.xxx.xxx.xxx
+
+```
 
 ---
 
